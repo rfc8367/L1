@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+print(x + y)
+print(x // y)
+print(x % y)
+print(x ** y)
