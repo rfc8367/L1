@@ -1,8 +1,10 @@
+a = int(input())
 sum_num = 0
 
-while True:
-    element = int(input("Введите число: "))
-    if element == 0:
-        break
-    sum_num += element
+while a != 0:
+    sum += a
+    a = int(input())
 print(sum_num)
+
+
+
