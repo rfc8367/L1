@@ -156,24 +156,22 @@ second_maximum()
 #Определите, сколько элементов этой последовательности равны ее наибольшему элементу
 
 def max_element():
-  
-  init_num = int(input("Введите число: "))
-  
+    init_num = int(input("Введите число: "))
+
     first_max = 0
     element_count = 1
-   
-    
+
     while init_num != 0:
         if init_num > first_max:
-          
+
             first_max = init_num
             element_count = 1
-            
+
         elif init_num == first_max:
-          
+
             element_count += 1
-       init_num = int(input())
-        
+        init_num = int(input())
+
     print(element_count)
 
 max_element()
