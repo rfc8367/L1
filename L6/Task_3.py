@@ -6,3 +6,10 @@ for key in value:
 
 print(dict_a)
 
+
+#Enumerate
+
+value = ['a', 'b', 'c', 'd', 'e']
+dict_b = dict(enumerate(value, 0))
+
+print(dict_b)
