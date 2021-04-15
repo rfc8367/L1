@@ -11,6 +11,6 @@ def open_file():
     for i in new_duration:
         total_duration += int(i['duration'])
         
-    print(timedelta(seconds=total_duration))
+    print(timedelta(seconds = total_duration))
 
 open_file()
