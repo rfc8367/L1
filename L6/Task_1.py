@@ -6,3 +6,8 @@ def tpl_to_dict():
     print(dict)
     
 tpl_to_dict()
+
+
+#Cheat
+cheat = dict(zip(coin, code))
+print(cheat)
