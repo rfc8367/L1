@@ -1,9 +1,9 @@
-A = int(input("Введите A: "))
-B = int(input("Введите B: "))
+a_int = int(input("Введите A: "))
+b_int = int(input("Введите B: "))
 
-if A < B:
-    for i in range(A, B + 1):
+if a_int < b_int:
+    for i in range(a_int, b_int + 1):
         print(i)
 else:
-    for i in range(A, B - 1, -1):
+    for i in range(a_int, b_int - 1, -1):
         print(i)
