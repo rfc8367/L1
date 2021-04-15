@@ -7,6 +7,7 @@ def open_file():
 
         new_duration = data['album']['tracks']['track']
         total_duration = 0
+        
     for i in new_duration:
         total_duration += int(i['duration'])
         
