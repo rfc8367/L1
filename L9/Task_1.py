@@ -24,7 +24,7 @@ def check_args(row):
 
 def open_file():
     data = []
-    with open('tz_opendata_z01012021_po01042021.csv') as csv_file:
+    with open('tz_opendata_z01012021_po01042021.csv', 'r') as csv_file:
         columns = ['BRAND', 'MODEL', 'MAKE_YEAR', 'COLOR', 'FUEL', 'N_REG_NEW']
         csv_reader = csv.DictReader(csv_file, fieldnames=columns, delimiter=',')
         next(csv_reader)
