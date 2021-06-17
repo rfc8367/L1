@@ -29,7 +29,7 @@ def weather_forecast(data):
             file.write(str(i['temp']['night']) + 'temp_night')
             file.write(str(i['feels_like']['day']) + 'felling_day')
             file.write(str(i['feels_like']['night']) + 'felling_night')
-        file.close()
+       
 
 q, cnt = parameters()
 data = url_link(q, cnt)
