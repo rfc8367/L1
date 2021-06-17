@@ -8,28 +8,28 @@ def menu():
 
 
 
-def CelsiusToFahrenheit(celsius):
+def celsius_to_fahrenheit(celsius):
     return float((celsius * 1.8) + 32)
 
-def CelsiusToKelvin(celsius):
+def celsius_to_kelvin(celsius):
     return float((celsius + 273.15))
 
 
 
 
-def FahrenheitToCelsius(fahrenheit):
+def fahrenheit_to_celsius(fahrenheit):
     return float((fahrenheit-32) / 1.8)
 
-def FahrenheitToKelvin(fahrenheit):
+def fahrenheit_to_kelvin(fahrenheit):
     return float((fahrenheit + 459.67) * 0.555556)
 
 
 
 
-def KelvinToCelsius(kelvin):
+def kelvin_to_celsius(kelvin):
     return float(kelvin - 273.15)
 
-def KelvinToFahrenheit(kelvin):
+def kelvin_to_fahrenheit(kelvin):
     return float((kelvin * 1.8) - 459.67)
 
 
